@@ -6,12 +6,10 @@ class Car {
 
   static int numberOfCars = 0;
 
-  // Constructor
   Car(this.brand, this.model, this.year, this.milesDriven) {
     numberOfCars++;
   }
 
-  // Methods
   void drive(double miles) {
     milesDriven += miles;
   }
