@@ -69,5 +69,5 @@ void main() {
   print('Age: ${car3.getAge()}');
   print('');
 
-  print('Total number of Car objects: ${Car.numberOfCars}');
+  print('Total number of Cars: ${Car.numberOfCars}');
 }
