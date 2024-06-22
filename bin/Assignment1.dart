@@ -38,7 +38,7 @@ class Car {
 
 void main() {
   Car car1 = Car('Toyota', 'Corolla', 2013, 22000.5);
-  Car car2 = Car('Honda', 'Civic', 2017, 15000.0);
+  Car car2 = Car('Honda', 'Civic', 2017, 14000.0);
   Car car3 = Car('Ford', 'Mustang', 2021, 17000.3);
 
   car1.drive(250.0);
