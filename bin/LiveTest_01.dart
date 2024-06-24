@@ -1,6 +1,6 @@
 class Media {
   void play() {
-    print('Playing media...');
+    print('Playing media...\n');
   }
 }
 
@@ -14,6 +14,7 @@ late  String artist;
   }
 }
 
+
 void main() {
   Media media = Media();
   Song song = Song('Imagination of World');
@@ -21,6 +22,6 @@ void main() {
   print('Calling play() on Media instance:');
   media.play();
 
-  print('\n Calling play() on Song instance:');
+  print('Calling play() on Song instance:');
   song.play();
 }
